@@ -9,6 +9,7 @@ import { Routes } from './routes';
 import { PreferencesProvider } from './utils/preferences';
 import { ReferrerProvider } from './utils/referrer';
 
+// Yep
 export default function App() {
   return (
     <Suspense fallback={() => <Spin size="large" />}>
